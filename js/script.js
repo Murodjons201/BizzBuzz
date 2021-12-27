@@ -7,7 +7,7 @@ elForm.addEventListener('submit', function(evt) {
 
     let inputValue = elFormInput.value;
 
-    function fizzbuzz(number) {
+    function fizzBuzz(number) {
 
         if((number % 15) === 0) {
             return "FizzBuzz";
@@ -21,6 +21,6 @@ elForm.addEventListener('submit', function(evt) {
 
     }
 
-    elResult.textContent = fizzbuzz(inputValue);
-    console.log(fizzbuzz(inputValue));
+    elResult.textContent = fizzBuzz(inputValue);
+    console.log(fizzBuzz(inputValue));
 })
